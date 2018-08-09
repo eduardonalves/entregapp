@@ -1,2 +1,2 @@
 # Entregapp
-Aplicativo de delivery.
+Aplicativo de delivery. Jquery Mobile.
