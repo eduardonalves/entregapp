@@ -1,1 +1,2 @@
-# entregapp
+# Entregapp
+Aplicativo de delivery.
