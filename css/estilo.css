@@ -1,0 +1,811 @@
+.triangle-isosceles {
+  position:relative;
+  padding:15px;
+  margin:1em 0 3em;
+  color:#000;
+  background:#f3961c; /* default background for browsers without gradient support */
+  /* css3 */
+  background:-webkit-gradient(linear, 0 0, 0 100%, from(#f9d835), to(#f3961c));
+  background:-moz-linear-gradient(#f9d835, #f3961c);
+  background:-o-linear-gradient(#f9d835, #f3961c);
+  background:linear-gradient(#f9d835, #f3961c);
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  border-radius:10px;
+}
+
+.triangle-isoscelesalt {
+  position:relative;
+  padding:15px;
+  margin:1em 0 3em;
+  color:#000;
+  background:#ccc; /* default background for browsers without gradient support */
+  /* css3 */
+  background:-webkit-gradient(linear, 0 0, 0 100%, from(#ccc), to(#C2C2C2));
+  background:-moz-linear-gradient(#ccc, #C2C2C2);
+  background:-o-linear-gradient(#ccc, #C2C2C2);
+  background:linear-gradient(#ccc, #C2C2C2);
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  border-radius:10px;
+}
+
+/* Variant : for top positioned triangle
+------------------------------------------ */
+
+.triangle-isosceles.top {
+  background:-webkit-gradient(linear, 0 0, 0 100%, from(#f3961c), to(#f9d835));
+  background:-moz-linear-gradient(#f3961c, #f9d835);
+  background:-o-linear-gradient(#f3961c, #f9d835);
+  background:linear-gradient(#f3961c, #f9d835);
+}
+
+.triangle-isoscelesalt.top {
+  background:-webkit-gradient(linear, 0 0, 0 100%, from(#ccc), to(#C2C2C2));
+  background:-moz-linear-gradient(#ccc, #C2C2C2);
+  background:-o-linear-gradient(#ccc, #C2C2C2);
+  background:linear-gradient(#ccc, #C2C2C2);
+}
+
+/* Variant : for left/right positioned triangle
+------------------------------------------ */
+
+.triangle-isosceles.left {
+  margin-left:50px;
+  background:#f3961c;
+}
+
+/* Variant : for right positioned triangle
+------------------------------------------ */
+
+.triangle-isosceles.right {
+  margin-right:50px;
+  background:#f3961c;
+}
+
+/* THE TRIANGLE
+------------------------------------------------------------------------------------------------------------------------------- */
+
+/* creates triangle */
+.triangle-isosceles:after {
+  content:"";
+  position:absolute;
+  bottom:-15px; /* value = - border-top-width - border-bottom-width */
+  left:50px; /* controls horizontal position */
+  border-width:15px 15px 0; /* vary these values to change the angle of the vertex */
+  border-style:solid;
+  border-color:#f3961c transparent;
+  /* reduce the damage in FF3.0 */
+  display:block;
+  width:0;
+}
+
+/* Variant : top
+------------------------------------------ */
+
+.triangle-isosceles.top:after {
+  top:-15px; /* value = - border-top-width - border-bottom-width */
+  right:50px; /* controls horizontal position */
+  bottom:auto;
+  left:auto;
+  border-width:0 15px 15px; /* vary these values to change the angle of the vertex */
+  border-color:#f3961c transparent;
+}
+
+/* Variant : left
+------------------------------------------ */
+
+.triangle-isosceles.left:after {
+  top:16px; /* controls vertical position */
+  left:-50px; /* value = - border-left-width - border-right-width */
+  bottom:auto;
+  border-width:10px 50px 10px 0;
+  border-color:transparent #f3961c;
+}
+
+/* Variant : right
+------------------------------------------ */
+
+.triangle-isosceles.right:after {
+  top:16px; /* controls vertical position */
+  right:-50px; /* value = - border-left-width - border-right-width */
+  bottom:auto;
+  left:auto;
+  border-width:10px 0 10px 50px;
+  border-color:transparent #f3961c;
+}
+
+
+
+
+
+/* Variant Alt : for left/right positioned triangle
+------------------------------------------ */
+
+.triangle-isoscelesalt.left {
+  margin-left:50px;
+  background:#ccc;
+}
+
+/* Variant Alt: for right positioned triangle
+------------------------------------------ */
+
+.triangle-isoscelesalt.right {
+  margin-right:50px;
+  background:#ccc;
+}
+
+/* THE TRIANGLE Alt
+------------------------------------------------------------------------------------------------------------------------------- */
+
+/* creates triangle */
+.triangle-isoscelesalt:after {
+  content:"";
+  position:absolute;
+  bottom:-15px; /* value = - border-top-width - border-bottom-width */
+  left:50px; /* controls horizontal position */
+  border-width:15px 15px 0; /* vary these values to change the angle of the vertex */
+  border-style:solid;
+  border-color:#ccc transparent;
+  /* reduce the damage in FF3.0 */
+  display:block;
+  width:0;
+}
+
+/* Variant : top
+------------------------------------------ */
+
+.triangle-isoscelesalt.top:after {
+  top:-15px; /* value = - border-top-width - border-bottom-width */
+  right:50px; /* controls horizontal position */
+  bottom:auto;
+  left:auto;
+  border-width:0 15px 15px; /* vary these values to change the angle of the vertex */
+  border-color:#ccc transparent;
+}
+
+/* Variant : left
+------------------------------------------ */
+
+.triangle-isoscelesalt.left:after {
+  top:16px; /* controls vertical position */
+  left:-50px; /* value = - border-left-width - border-right-width */
+  bottom:auto;
+  border-width:10px 50px 10px 0;
+  border-color:transparent #ccc;
+}
+
+/* Variant : right
+------------------------------------------ */
+
+.triangle-isoscelesalt.right:after {
+  top:16px; /* controls vertical position */
+  right:-50px; /* value = - border-left-width - border-right-width */
+  bottom:auto;
+  left:auto;
+  border-width:10px 0 10px 50px;
+  border-color:transparent #ccc;
+}
+.paddTopTab{
+    padding-top: 17px !important;
+}
+            .imgAvancarLogin{
+                  width: 59px;
+                  height: 59px ;
+                  display: block;
+                  margin: 29px auto;
+                    float: left;
+                   margin-left: 38%;
+                   border: none;
+                   outline: none;
+                   margin-bottom: 5%;
+                   /*background-image: url("../images/backgroun2.jpg");*/
+
+            }
+            .imgLogin{
+                    width: 72%;
+                    margin: 0 auto;
+                    display: block;
+                    margin-top: 8%;
+                      margin-bottom: 6%;
+            }
+
+        #login{
+          margin-bottom: 58px;
+        }
+             /***Fim das Alterações para background do aplicativo****/
+        .painelMenu{
+                width: 190px;
+                margin: 0 auto;
+                padding: 7%;
+                margin-bottom: 19px;
+                display: block;
+                margin-left: -7px;
+                height: 85px;
+        }
+    #produtos{display:none;}
+    #atendimentos{display:none;}
+
+
+    .ui-footer .ui-btn{border:none !important;}
+
+
+
+    .pageContent{ position:relative !important; background-color: #fcee21;padding-bottom:97px; margin-bottom:20px; /*background-image: url("../images/backgroun2.jpg");*/
+                }
+    .hideFooter{bottom:0px; position:absolute !important;  top: auto !important; width:100%; bottom: 0%;}
+      .hideFooter2{bottom:0px; position:fixed !important;  top: auto !important; width:100%; bottom: 0%; }
+    .ui-collapsible-set{ margin-top: 2.4em !important; }
+    .content h2{text-align: center;}
+    small {
+        display: block;
+        margin: 0 auto;
+    }
+            .listview li{
+                  outline: none;
+            }
+
+    .slider{max-width: 302px;}
+    /*.slider img{ margin: 0 auto;  display: block;}*/
+    .slider  h4{   text-align: center; font-size: 17pt; height: 5px;   font-weight: bolder;   margin-top: 9px;  display: inline-block; width: 100%;}
+    .slider p{margin-top: 0px;}
+    .slider .icone-mais{margin-left: 85%;}
+    .textoProduto{display:none;}
+
+    .popDiv{ text-align: center;}
+
+    .preco{
+        display: block;
+        text-align: center;
+        font-size: 18pt;
+        font-style: italic;
+        font-weight: bold;
+    }
+    .erroqtde{display:none;}
+    #pedido{font-size: 0.8em;}
+
+
+
+
+
+/** Scaffold View **/
+    dl {
+        line-height: 2em;
+        margin: 0em 0em;
+        width: 98%;
+        font-size: 0.9em;
+    }
+        dl dd:nth-child(4n+2),
+        dl dt:nth-child(4n+1) {
+        /*background: #f4f4f4;*/
+    }
+
+    dt {
+        font-weight: bold;
+        padding-left: 4px;
+        vertical-align: top;
+        width: 10em;
+    }
+    dd {
+        margin-left: 9em;
+        margin-top: -2em;
+        vertical-align: top;
+    }
+    .tabela{font-size: 0.8em;}
+    .h3content{ width: 217px; margin: 0 auto; margin-bottom:1em; text-align: center;}
+    #atendimentosView{display:none;}
+    #atendimentosView2{display:none;}
+    #usuario{display:none;}
+    #itensdepedido{display:none;}
+    #previsaoAtend{display:none;}
+    .ui-table-columntoggle-btn{display:none;}
+    .erroqtde2{display:none;}
+    #divPagamento{display:none;}
+    .dispNone{display:none;}
+    /*.gmap {
+    width:100%;
+    height:100%;
+    min-height:500px;
+
+    }
+
+    .gmap_image img {
+        max-width:100%;
+    }*/
+
+    .gmap2 {
+        height: 7em;
+
+    }
+    /*.map-page, .map-canvas { width: 100%; height: 100%; padding: 0; }*/
+    #map-canvas{height: 25em !important; width:100%;}
+
+      .ui-footer {min-height: 68.15px; }
+    .ui-footer small{font-size: 0.7em; text-align: center !important; margin-top: 20px;}
+    .ui-header{min-height: 4.2em; width: 100%;}
+      #index_old .ui-footer small, #index .ui-footer small , #page1 .ui-footer small, #page13 .ui-footer small {
+        /*  font-size: 0.7em;
+          text-align: center !important;
+
+            padding-bottom: 2%;*/
+        }
+        #page2{
+              padding-bottom: 61px;
+        }
+      #page2 .ui-footer small{
+         padding-bottom: 6px;
+        margin-top: 3px;
+      }
+      #page10 .ui-footer small{
+         padding-bottom: 8px;
+         margin-top: 1px;
+      }
+
+    .tituloHeader{margin-top: 1em !important;}
+
+    .ui-header .ui-btn-left{margin-top: 1em;}
+
+
+
+
+    .ui-popup-container .ui-header{position:relative !important;}
+    #page2 .ui-body-d{ border-style:none !important;}
+
+    #avaliarPedido{margin: 0 2em;}
+
+
+/*chat atendimento***/
+/*body{
+ font-family: "Comic Sans MS", Helvetica, Arial, sans-serif;
+ font-size: 14px;
+ line-height: 32px;
+ color: #333333;
+ font-weight: normal;
+}*/
+.container{
+ margin: 0 auto;
+ width: 600px;
+}
+/*.chat-zone{
+ padding: 20px;
+
+}*/
+.chatmsg {
+margin: 0 5px;
+}
+.chatmsg b{
+ text-transform: uppercase;
+}
+
+.chatmsgb {
+margin: 0 5px;
+}
+.chatmsgb b{
+ text-transform: uppercase;
+}
+.chat{
+ margin: 0 auto;
+}
+#chatZone{
+padding-bottom: 0px;
+min-height: 261px;
+max-height:40%;
+  -webkit-overflow-scrolling: touch;
+}
+
+
+#footerchat .ui-input-text { margin-left: 10%; margin-right: 1%; margin-top: 0%; max-height:48px;}
+#formChat{max-height:69px; width: 100%; margin-left: 0 auto;}
+input, textarea {
+-webkit-user-modify: read-write-plaintext-only;
+}
+.chat form{
+/* margin: 10px 0 0 0;*/
+}
+
+#envChat{}
+.linkEnviaChat{width:30% !important;}
+
+.linkInputChat{width:70% !important;}
+#audioPlayer{display:none;}
+.audioPlayer{display:none;}
+
+.btnPopLeft{ margin-top: 1px;float:left !important; margin-right: 4%;}
+.control-confirmar{
+    width: 178px !important;
+  margin: 0 auto !important;
+}
+.btnPop{width: 50px !important;}
+.circulodivGrande{
+    height: 100px;
+    width: 100px;
+    -moz-border-radius: 55px;
+    -webkit-border-radius: 55px;
+    border-radius: 55px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.circulodivFoto{
+    height: 44px;
+    width: 44px;
+    -moz-border-radius: 22px;
+    -webkit-border-radius: 22px;
+    border-radius: 22px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 0.4em;
+}
+
+.countBubl {float:left;margin-top:-42px;margin-left:35px;padding:2px; }
+.owl-controls .owl-buttons .owl-next{   position: absolute; right: 0%;  top: 37%;}
+.owl-controls .owl-buttons .owl-prev{
+
+    position: absolute;
+    left: 0px;
+     top: 37%;
+
+}
+
+
+.owl-carousel .owl-wrapper-outer {
+     margin-top: 15px;
+}
+.ui-header{
+      box-shadow: 0px 9px 10px -8px black;
+     border: 0;
+}
+.ui-popup .ui-header h2 {padding-top: 24px !important;}
+.ui-footer{
+    -webkit-box-shadow: -1px -2px 9px 1px rgba(0,0,0,0.85);
+    -moz-box-shadow: -1px -2px 9px 1px rgba(0,0,0,0.85);
+    box-shadow: -1px -2px 9px 1px rgba(0,0,0,0.85);
+    border: 0px;
+}
+.imgAvancar{
+      /*  width: 59px;
+      height: 59px;
+      display: block;
+      margin: 29px auto;
+            border: none;
+            outline: none;*/
+}
+.voltarPedido{
+     /* width: 59px;
+      height: 59px;
+      display: block;
+      margin: 29px auto;
+        float: left;
+        margin-left: 29%;
+        display: none;
+            border: none;
+            outline: none;*/
+}
+.pedir{
+    width: 59px;
+      height: 59px;
+    padding-bottom: 5px;
+
+        float: left;
+        margin-left: 1%;
+        display: none;
+             border: none;
+               outline: none;
+}
+#divAuxTroco{
+        display: none;
+
+}
+
+
+.envChat{
+    width: 48px;
+    display: block;
+      margin-left: 29%;
+    border: 0px;
+    outline: none;
+}
+.submitFormCliente{
+        width: 59px;
+    height: 59px;
+    display: block;
+    margin: 30px auto;
+}
+.fotoRotate{
+      transform: rotate(-90deg);
+}
+
+
+
+
+/*Update aqui*/
+
+.inputAdd{
+  height: 44px;
+  width: 44px;
+  float: left;
+  margin-top: 1.6%;
+  margin-right: 5px;
+  background: black;
+  border: 0;
+  color: white;
+  border-radius: 38px;
+  text-indent: 13px;
+}
+.divControles{
+    width: 149px;
+    margin: 1px auto;
+    margin-top: 3px;
+}
+    .imgProduto{ padding: 3px; }
+
+    .owl-theme .owl-controls .owl-buttons div {background: none; }
+     .addProduto{
+        width: 44px;
+        border: 0;
+         outline: none;
+         margin-top: 3px;
+     }
+     .infoProduto{
+        width: 44px;
+        border: 0;
+        outline: none;
+        margin-top: 3px;
+     }
+    .imgProduto img{
+        max-width: 220px;
+        max-height: 150px;
+        display: block;
+        margin: 10px auto;
+    }
+.compostoLabelAdd{
+    display: block;
+    width: 55px !important;
+    margin: 3px auto!important;
+}
+.compostoAdd{
+
+    width: 100px !important;
+    margin: 6px auto !important;
+    color: white;
+    background-color: black;
+}
+.compostoTamanho{
+    display: block;
+    width: 100px !important;
+    margin: 6px auto !important;
+    color: white;
+    background-color: black;
+}
+
+.precoComposto{
+    display: none;
+}
+
+.labelTamanho{
+    display: block;
+    width: 75px !important;
+    margin: 3px auto!important;
+}
+.selectTamanho{
+    display: block;
+    width: 100px !important;
+    margin: 6px auto !important;
+    background-color: black;
+    color: white;
+}
+
+.labelBedidas{
+    display: block;
+    width: 55px !important;
+    margin: 3px auto!important;
+}
+.selectBeidas{
+    display: block;
+    width: 100px !important;
+    margin: 6px auto !important;
+    background-color: black;
+    color: white;
+}
+.labelGanhe{
+   display: block;
+    width: 55px !important;
+    margin: 3px auto!important;
+}
+.selectGanhe{
+     display: block;
+    width: 100px !important;
+    margin: 6px auto !important;
+    background-color: black;
+    color: white;
+}
+.none{display: none;}
+.slider .noneImportant{display: none;}
+.dispNoneTam{display: none;}
+.dispLoja{
+   display: block;
+  width: 147px;
+ margin: 11px auto; auto;
+}
+.divDisp{
+
+    width: 20px;
+    height: 20px;
+    border-radius: 18px;
+    float: right;
+    margin-left: 6px;
+    margin-top: -2px;
+}
+.classGray{
+  background-color: #ccc;
+}
+.classGren{
+  background-color: green;
+}
+.dispHora{
+  position: absolute !important;
+  margin-top: 23px !important;
+  width: 180px;
+  text-align: center;
+  right: 35px;
+    font-size: 11px !important;
+}
+.mediaAtendimentoAtivo{
+    margin-left: -25px;
+}
+.logoPainel{
+    width: 206px;
+    margin-bottom: 38px;
+}
+.spanproximo {
+  /*height: 39px;
+  margin-top: 98px;
+  position: absolute;
+  left: 92px;*/
+  margin-top: -24px;
+}
+.spananterior{
+  /*display: none;
+    height: 39px;
+    margin-top: 98px;
+    position: absolute;
+      left: -13px;*/
+  margin-left: 8px;
+}
+.btn-voltar{
+    width: 59px;
+      float: left;
+}
+.btn-avancar{
+  width: 59px;
+  margin: 0 auto;
+}
+.btn-comprar{
+    width: 59px;
+  float: left;
+   margin-left: 7px;
+
+}
+#obsPedido{
+  margin-top: 10px;
+}
+.menuSair{
+  margin-top: 0.5px !importantf;
+}
+#select-27-button{
+  height: 10,37px;
+}
+.spanComprar{
+display: block;
+}
+.control-btn{
+    width: 128px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 14px;
+     margin-bottom: 45px;
+}
+.imgAvancar{
+    font-size: 15px;
+}
+.cadastrarUsuario{
+     position: relative;
+    width: 100px;
+    display: block;
+    max-height: 20px;
+    margin: 0 auto;
+    clear: both;
+    margin-bottom: 80px;
+    margin-top: -36px;
+}
+.submitFormCliente{
+    margin-bottom: 55px;
+}
+.slidedown{position: fixed !important;}
+.ui-header .btn-menu {height: 16px !important;
+  margin-top: 15px !important;}
+
+#page10 .ui-navbar{
+   margin-top: -10px
+}
+
+.linkTelefone{
+  margin-top: 1px;
+}
+.ilustrativa{
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  padding-top: 0px;
+  margin-top: 0px !important;
+}
+.red-border{
+  border:1px solid red !important;
+}
+.submitFormCliente{outline: none !important;}
+.spanconectado{
+  text-align: center;
+  display: inherit;
+}
+.showDataUser{
+  display: none;
+}
+
+#meucadastroEdit{
+  display: none;
+}
+@media screen and (max-height: 768px) {
+  .pageContent{
+        min-height: 650px !important;
+  }
+  .contentPage{
+       min-height: 650px !important;
+  }
+}
+@media screen and (max-height: 640px) {
+  .pageContent{
+        min-height: 520px !important;
+  }
+  .contentPage{
+       min-height: 520px !important;
+  }
+}
+@media screen and (max-height: 600px) {
+  .pageContent{
+        min-height: 490px !important;
+  }
+  .contentPage{
+       min-height: 490px !important;
+  }
+}
+@media screen and (max-height: 568px) {
+  .pageContent{
+        min-height: 459px !important;
+  }
+  .contentPage{
+       min-height: 459px !important;
+  }
+}
+@media screen and (max-height: 534px) {
+  .pageContent{
+        min-height: 415px !important;
+  }
+  .contentPage{
+       min-height: 415px !important;
+  }
+}
+@media screen and (max-height: 481px) {
+  .pageContent{
+        min-height: 360px !important;
+  }
+  .contentPage{
+       min-height: 360px !important;
+  }
+}
+
+.uolPSMediator{
+  width: 90%;
+}
+.pagSeguro{
+  display: none;
+}

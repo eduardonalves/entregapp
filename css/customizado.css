@@ -1,0 +1,208 @@
+.linkTelefone{
+  margin-top: 2px!important;
+}
+.logoPainel {
+    margin-left: 14px;
+}
+.logadoNone{
+        display: none !important;
+    }
+    /***Alterações para background do aplicativo****/
+    input{
+        background: #FFFFFF;
+    }
+    ul.ui-grid-b a:visited{
+         background: #e0414e !important;
+
+    }
+    /*background mudar
+    .contentPage{
+        background: #DCD5BB  !important;
+    }*/
+
+     ul.ui-grid-b a:hover{
+         background: #648272 !important;
+
+    }
+body{
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        background: #e0414e !important;
+
+    }
+    .ui-body-b, .ui-page{
+          color: #000000 !important;
+        text-shadow: 0 1px #ffff00 !important;
+    }
+    .submitFormCliente{
+     /* background-image: url("../images/backgroun2.jpg");*/
+        background-color: #fcee21;
+    }
+
+
+    .imgAvancarLogin{
+         /*background-image: url("../images/backgroun2.jpg");*/
+         background-color: #fcee21;
+    }
+    .infoProduto{
+       /* background-image: url("../images/backgroun2.jpg");*/
+       background-color: #fcee21;
+    }
+    .addProduto{
+        /*background-image: url("../images/backgroun2.jpg");*/
+        background-color: #fcee21;
+    }
+    .ui-content{
+        /* background-image: url("../images/backgroun2.jpg");*/
+        background-color: #fcee21;
+    }
+    .ui-collapsible-content{
+        /*background-image: url("../images/backgroun2.jpg");*/
+        background-color: #fcee21;
+    }
+    .ui-page{
+        /*background-image: url("../images/backgroun2.jpg");*/
+        background-color: #fcee21;
+    }
+     #envChat{
+         background: #e0414e;
+    }
+    .imgAvancarLogin{
+           /*background-image: url("../images/backgroun2.jpg");*/
+           background-color: #fcee21;
+    }
+    .ui-icon-info:after {
+      background-image: url("images/icons-png/info-white.png") !important;
+      background-color: #666 !important;
+      background-color: rgba(0,0,0,.3) !important;
+    }
+    .vermelho{color:red;}
+    .menuSair .ui-btn-icon-left:after{background-image: url("images/icons-png/power-white.png");}
+    .novopedido:after{background-image: url("images/icons-png/shop-white.png");}
+    .fazerlogin:after{background-image: url("images/icons-png/action-white.png");}
+    .listarpedido:after{background-image: url("images/icons-png/bullets-white.png");}
+    .meucadastro:after{background-image: url("images/icons-png/user-white.png");}
+    .mensagemChat:after{background-image: url("images/icons-png/comment-white.png");}
+    .linkTelefone:after{background-image: url("images/icons-png/phone-white.png");}
+    .menuSair:after{background-image: url("images/icons-png/power-white.png");}
+    .esquecer:after{background-image: url("images/icons-png/action-white.png");}
+    .pageContent{
+        background-color: #fcee21;
+    }
+    .table-stripe thead th,
+    .table-stripe tbody tr:last-child {
+        border-bottom: 1px solid #d6d6d6; /* non-RGBA fallback */
+        border-bottom: 1px solid rgba(0,0,0,.1);
+    }
+    .table-stripe tbody th,
+    .table-stripe tbody td {
+        border-bottom: 1px solid #e6e6e6; /* non-RGBA fallback  */
+        border-bottom: 1px solid rgba(0,0,0,.05);
+    }
+    .table-stripe tbody tr:last-child th,
+    .table-stripe tbody tr:last-child td {
+        border-bottom: 0;
+    }
+    .table-stripe tbody tr:nth-child(odd) td,
+    .table-stripe tbody tr:nth-child(odd) th {
+        background-color: #eeeeee; /* non-RGBA fallback  */
+        background-color: rgba(0,0,0,.04);
+    }
+    .slider  h4{ color: #ff0a0a;}
+    .verde-background{
+          background-color: rgb(173, 255, 47);
+
+    }
+     .verde-background dt{
+        background-color: rgb(173, 255, 47) !important;
+    }
+    .verde-background dd{
+        background-color: rgb(173, 255, 47) !important;
+    }
+    .ui-header, .ui-footer{background-color: #e0414e; color: white;}
+    .ui-footer {border-bottom-color: #FF0A0A }
+
+    .ui-icon-share:after {
+    background-image: url("../images/icons-png/share-white1.png") !important;
+    }
+
+    /*tabelas*/
+    .tabelaPadrao thead th,
+    .tabelaPadrao tbody tr:last-child {
+        border-bottom: 1px solid #d6d6d6; /* non-RGBA fallback */
+        border-bottom: 1px solid rgba(0,0,0,.1);
+    }
+    .tabelaPadrao tbody th,
+    .tabelaPadrao tbody td {
+        border-bottom: 1px solid #e6e6e6; /* non-RGBA fallback  */
+        border-bottom: 1px solid rgba(0,0,0,.05);
+    }
+    .tabelaPadrao tbody tr:last-child th,
+    .tabelaPadrao tbody tr:last-child td {
+        border-bottom: 0;
+    }
+    .tabelaPadrao tbody tr:nth-child(odd) td,
+    .tabelaPadrao tbody tr:nth-child(odd) th {
+        background-color: #eeeeee; /* non-RGBA fallback  */
+        background-color: rgba(0,0,0,.04);
+    }
+    .chatmsg b{
+     color: #B34007;
+    }
+    .chatmsgb b{
+     color: orange;
+    }
+    .countBubl {background:#ed1d24;color:#fff;}
+    .ui-panel{
+      background-color: #e0414e;
+    }
+    .ui-panel ul li a{
+      background-color: #e0414e !important;
+      color: white !important;
+      /*text-shadow: 1px 1px #ccc !important;*/
+        text-shadow: 0 1px 0 #111 !important;
+    }
+    .imgProduto{background-color:#B37700;  }
+
+    .compostoAdd{
+      color: white;
+      background-color: black;
+    }
+    .compostoTamanho{
+        color: white;
+        background-color: black;
+    }
+    .selectTamanho{
+        background-color: black;
+        color: white;
+    }
+
+    .selectBeidas{
+        background-color: black;
+        color: white;
+    }
+
+
+    .selectGanhe{
+        background-color: black;
+        color: white;
+    }
+    .classGray{
+      background-color: #ccc;
+      display: block;
+    }
+    .classGren{
+      background-color: green;
+      display: block;
+    }
+    #index{
+      color: #000000 !important;
+      text-shadow: 0 1px 0 #e0414e !important;
+    }
+   .imgEntrada{width: 100%; display: block; margin: 10% auto; margin-bottom:3em; display: block;}
+    .applogo{
+     width: 77px;
+      margin-top: 4px !important;
+    }
+    #itensdoPedido tr:nth-child(odd) { background-color:#D6CA1C; }
+#atendimentostab tr:nth-child(odd) { background-color:#D6CA1C; }
+#tblbodyPedido tr:nth-child(odd) { background-color:#D6CA1C; }
